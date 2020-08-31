@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
+import styles from './App.module.scss';
+
+import ColorBox from './components/ColorBox/ColorBox.jsx';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <h1>App</h1>
+        <ColorBox />
       </div>
     )
   }
